@@ -8,7 +8,6 @@ export const NavContainer = styled.nav`
   background-color: #1e633f;
   justify-content: space-around;
   position: sticky;
-  
 `;
 
 export const LeftContainer = styled.div`
