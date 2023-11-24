@@ -200,11 +200,12 @@ const SearchOrAddItemContainer = styled.div`
   padding: 14px 60px;
 `;
 const SearchInputBox = styled.input`
-  border-radius: 20px;
+  border-radius: 20px 0px 0px 20px;
   padding-left: 15px;
   border: 1px solid rgb(209, 209, 209);
-  width: 30%;
+  width: 200px;
   height: 30px;
+  border-right: none;
 `;
 
 const AddItemButton = styled.button`
@@ -214,6 +215,35 @@ const AddItemButton = styled.button`
   background: #fff;
   color: rgb(30, 99, 63);
   border: 1px solid rgb(30, 99, 63);
+`;
+
+const PrinterIcon = styled.img`
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+`;
+const SearchIcon = styled.img`
+  height: 22px;
+  width: 30px;
+  padding: 5px;
+  margin-left: 20px;
+  border: 1px solid rgb(209, 209, 209);
+  margin-left: 0px;
+  border-left: none;
+  border-radius: 0px 20px 20px 0px;
+`;
+
+const AddContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+const SearchContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 function OrderTable() {
@@ -276,8 +306,20 @@ function OrderTable() {
     <>
       <TableWrapper>
         <SearchOrAddItemContainer>
-          <SearchInputBox defaultValue={"Search..."} type="text" disabled />
-          <AddItemButton disabled>{"Add Item"}</AddItemButton>
+          <SearchContainer>
+            <SearchInputBox defaultValue={"Search..."} type="text" disabled />
+            <SearchIcon
+              src="https://res.cloudinary.com/dnebrhaqh/image/upload/v1700836037/magnifying-glass-solid_nfhhyd.svg"
+              alt="search"
+            />
+          </SearchContainer>
+          <AddContainer>
+            <AddItemButton disabled>{"Add Item"}</AddItemButton>
+            <PrinterIcon
+              src="https://res.cloudinary.com/dnebrhaqh/image/upload/v1700835222/print-solid_xvah4g.svg"
+              alt="print"
+            />
+          </AddContainer>
         </SearchOrAddItemContainer>
         <Container>
           <StyledModalAdd
