@@ -367,12 +367,12 @@ function OrderTable() {
                 </td>{" "}
                 <td>
                   <Text level={2} lineHeight={1.3}>
-                    {product.price}{" "}
+                   $ {product.price}{" "}
                   </Text>
                 </td>{" "}
                 <td>
                   <Text level={2} lineHeight={1.3}>
-                    {product.quantity}{" "}
+                     {product.quantity}{" "}
                   </Text>
                 </td>{" "}
                 <td>
