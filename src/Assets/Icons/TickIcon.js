@@ -1,6 +1,6 @@
 import React from "react";
 
-function RightIcon({ fill }) {
+function TickIcon({ fill }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,4 +15,4 @@ function RightIcon({ fill }) {
   );
 }
 
-export default RightIcon;
+export default TickIcon;

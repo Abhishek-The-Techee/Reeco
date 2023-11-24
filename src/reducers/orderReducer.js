@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { ORDERS_JSON } from "../productsMockData";
+import { ORDERS_JSON } from "../MockData";
 
 export const productSlice = createSlice({
   name: "users",

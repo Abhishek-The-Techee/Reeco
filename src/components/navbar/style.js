@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const NavContainer = styled.nav`
-  height: 65px;
+  height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
   background-color: #1e633f;
   justify-content: space-around;
-  position: sticky;
+  position: fixed;
 `;
 
 export const LeftContainer = styled.div`
