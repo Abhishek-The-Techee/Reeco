@@ -21,7 +21,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 2,
   },
   {
     product_image:
@@ -33,7 +33,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 3,
   },
   {
     product_image:
@@ -45,7 +45,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 4,
   },
   {
     product_image:
@@ -57,7 +57,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 5,
   },
   {
     product_image:
@@ -69,7 +69,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 6,
   },
   {
     product_image:
@@ -81,7 +81,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 7,
   },
   {
     product_image:
@@ -93,7 +93,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 8,
   },
   {
     product_image:
@@ -105,7 +105,7 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 9,
   },
   {
     product_image:
@@ -117,6 +117,6 @@ export const ORDERS_JSON = [
     quantity: 1,
     total: 1,
     status: "none",
-    id: 1,
+    id: 10,
   },
 ];

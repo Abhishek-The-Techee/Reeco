@@ -218,8 +218,8 @@ const AddItemButton = styled.button`
 `;
 
 const PrinterIcon = styled.img`
-  height: 25px;
-  width: 25px;
+  height: 22px;
+  width: 22px;
   margin-left: 20px;
 `;
 const SearchIcon = styled.img`
